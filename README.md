@@ -5,7 +5,7 @@ This project explores which social, economic, and demographic factors most stron
 
 ## Table of Contents
 
-- [Overview](#overview)
+- [Goals](#goals)
 - [Data Sources](#data-sources)
 - [Data Preprocessing](#data-preprocessing)
 - [Feature Selection](#feature-selection)
@@ -17,9 +17,8 @@ This project explores which social, economic, and demographic factors most stron
 - [Contact](#contact)
 
 
-## Overview
+## Goals
 
-**Goals:**
 - Identify which factors (race, income, education, obesity, health insurance, etc.) are most predictive of lower life expectancy.
 - Highlight the role of systemic inequality in health outcomes using statistical modeling.
 - Create high-quality visualizations to assist social advocacy and academic research.
@@ -73,10 +72,10 @@ This project explores which social, economic, and demographic factors most stron
 
 ## Model Training
 
-- Train-test split: 80/20
-- Features were scaled using `StandardScaler`
-- Manual hyperparameter tuning performed (e.g., `n_estimators=170` for tree-based models)
-- Metrics: R² and Mean Absolute Error (MAE)
+- The data was split into training and testing sets using an 80/20 ratio.
+- Features were scaled using `StandardScaler`.
+- Manual hyperparameter tuning was performed (e.g., `n_estimators=170` for tree-based models).
+- Model performance was evaluated using R² and Mean Absolute Error (MAE).
 
 
 ## Model Comparison
